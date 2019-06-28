@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Tin Tức</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/png" href="images/icon/icon-1.ico" />
+	<meta name="description" content="Health medical template project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/news.css">
+	<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Menu -->
+
+		<div class="menu trans_500">
+			<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+				<div class="menu_close_container">
+					<div class="menu_close"></div>
+				</div>
+				<form action="#" class="menu_search_form">
+					<input type="text" class="menu_search_input" placeholder="Search" required="required">
+					<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+				</form>
+				<ul>
+					<li class="menu_item"><a href="index.html">Trang Chủ</a></li>
+					<li class="menu_item"><a href="about.html">Giới Thiệu</a></li>
+					<li class="menu_item"><a href="services.html">Chuyên Khoa</a></li>
+					<li class="menu_item"><a href="news.html">Tin Tức</a></li>
+					<li class="menu_item"><a href="contact.html">Liên Hệ</a></li>
+				</ul>
+			</div>
+			<div class="menu_social">
+				<ul>
+					<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Home -->
+
+		<div class="home">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/news.jpg" data-speed="0.8"></div>
+
+			<!-- Header -->
+
+			<header class="header" id="header">
+				<div>
+					<div class="header_top">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+										<div class="logo">
+											<a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+										</div>
+										<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
+											<div class="header_top_nav">
+												<ul class="d-flex flex-row align-items-center justify-content-start">
+														<li><a href="login/index.html">Đăng Nhập</a></li>
+														<li><a href="registration/index.html">Đăng Ký</a></li>
+												</ul>
+											</div>
+											<div class="header_top_phone">
+												<i class="fa fa-phone" aria-hidden="true"></i>
+												<span>+84 012 345 6789</span>
+											</div>
+										</div>
+										<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header_nav" id="header_nav_pin">
+						<div class="header_nav_inner">
+							<div class="header_nav_container">
+								<div class="container">
+									<div class="row">
+										<div class="col">
+											<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+												<nav class="main_nav">
+													<ul class="d-flex flex-row align-items-center justify-content-start">
+														<li><a href="index.html">Trang Chủ</a></li>
+														<li><a href="about.html">Giới Thiệu</a></li>
+														<li><a href="services.html">Chuyên Khoa</a></li>
+														<li class="active"><a href="news.html">Tin Tức</a></li>
+														<li><a href="contact.html">Liên Hệ</a></li>
+													</ul>
+												</nav>
+												<div class="search_content d-flex flex-row align-items-center justify-content-end ml-auto">
+													<form action="#" id="search_container_form" class="search_container_form">
+														<input type="text" class="search_container_input" placeholder="Tìm kiếm" required="required">
+														<button class="search_container_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="home_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_content">
+								<div class="home_title">Tin Tức</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- News -->
+
+		<div class="news">
+			<div class="container">
+				<div class="row">
+
+					<!-- News Posts -->
+					<div class="col-lg-8">
+						<div class="news_posts " id="page-1">
+
+							<!-- News Post -->
+							<div class="news_post">
+								<div class="news_post_image"><img src="images/news_1.jpg" alt=""></div>
+								<div class="news_post_content">
+									<div class="news_post_date"><a href="#">25 tháng 10, 2018</a></div>
+									<div class="news_post_title"><a href="#">Lời khuyên lựa chọn thực phẩm lành mạnh hằng ngày</a></div>
+									<div class="news_post_info">
+										<ul class="d-flex flex-row align-items-center justify-content-start">
+											<li><a href="#">by Phúc Hưng</a></li>
+											<li><a href="#">24 tháng 10, 2018</a></li>
+										</ul>
+									</div>
+									<div class="news_post_text">
+										<p>Ăn uống lành mạnh không phải là lập ra công thức dinh dưỡng khắt khe hay phải bỏ đi thực phẩm yêu thích.
+											Thay vào đó, nó cho bạn cảm giác tuyệt vời về ẩm thực, có nhiều năng lượng, mà vẫn đảm bảo sức khỏe...</p>
+									</div>
+									<div class="button news_post_button"><a href="#"><span>Đọc tiếp</span><span>Đọc tiếp</span></a></div>
+								</div>
+							</div>
+
+							<!-- News Post -->
+							<div class="news_post">
+								<div class="news_post_image"><img src="images/news_2.jpg" alt=""></div>
+								<div class="news_post_content">
+									<div class="news_post_date"><a href="#">25 tháng 10, 2018</a></div>
+									<div class="news_post_title"><a href="#">Tuyên dương đề tài nghiên cứu, của nghiên cứu sinh Thịnh Alida người
+											Mỹ gốc Việt</a></div>
+									<div class="news_post_info">
+										<ul class="d-flex flex-row align-items-center justify-content-start">
+											<li><a href="#">by Phúc Hưng</a></li>
+											<li><a href="#">24 tháng 10, 2018</a></li>
+										</ul>
+									</div>
+									<div class="news_post_text">
+										<p>Tại 2 trường mầm non tại Thái Nguyên, phát hiện ra các em nhỏ bị nhiễm giun (cụ thể giun truyền qua đất).
+											Với sự cố gắng của mình, Thịnh Alida đã tìm ra phường pháp tẩy giun cho các em và ngăn ngừa nhiễm giun qua
+											đất, đây cũng là đề tài nghiên cứu tốt nghiệp Thạc sĩ của anh...</p>
+									</div>
+									<div class="button news_post_button"><a href="#"><span>Đọc tiếp</span><span>Đọc tiếp</span></a></div>
+								</div>
+							</div>
+
+							<!-- News Post -->
+							<div class="news_post">
+								<div class="news_post_image"><img src="images/news_3.jpg" alt=""></div>
+								<div class="news_post_content">
+									<div class="news_post_date"><a href="#">25 tháng 10, 2018</a></div>
+									<div class="news_post_title"><a href="#">Mẹo sức khỏe cho bé</a></div>
+									<div class="news_post_info">
+										<ul class="d-flex flex-row align-items-center justify-content-start">
+											<li><a href="#">by Phúc Hưng</a></li>
+											<li><a href="#">24 tháng 10, 2018</a></li>
+										</ul>
+									</div>
+									<div class="news_post_text">
+										<p>Càng hiểu biết về sự phát triển của bé, bạn sẽ càng cảm thấy tự tin hơn trong việc chăm sóc và đáp ứng
+											những nhu cầu về chăm sóc sức khỏe cho bé. Qua bài viết này, chúng tôi có thể cung cấp cho bạn những thông
+											tin bổ ích về chăm sóc sức khỏe của bé. Chúng tôi cũng có chuyên mục riêng, hợp tác với các bác sỹ nhi uy
+											tín hàng đầu tại Việt nam và Thế giới để giúp trả lời nhiều câu hỏi mà bạn đặt ra về sức khỏe và sự phát
+											triển của bé...</p>
+									</div>
+									<div class="button news_post_button"><a href="#"><span>Đọc tiếp</span><span>Đọc tiếp</span></a></div>
+								</div>
+							</div>
+							<div class="pagination">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li class="active"><a href="#">01</a></li>
+									<li><a href="">02</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Sidebar -->
+					<div class="col-lg-4">
+						<div class="news_sidebar">
+
+							<!-- Search -->
+							<div class="sidebar_search">
+								<form action="#" id="sidebar_search" class="sidebar_search">
+									<input type="text" class="sidebar_search_input" placeholder="Search" required="required">
+									<button class="sidebar_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+								</form>
+							</div>
+
+							<!-- Latest News -->
+							<div class="sidebar_latest">
+								<div class="sidebar_title">Tin Tức Cũ</div>
+								<div class="sidebar_latest_container">
+
+									<!-- Latest News Post -->
+									<div class="latest d-flex flex-row align-items-start justify-content-start">
+										<div>
+											<div class="latest_image"><img src="images/latest_1.jpg" alt=""></div>
+										</div>
+										<div class="latest_content">
+											<div class="latest_title"><a href="news.html">Đề phòng các loại con trùng gây bệnh</a></div>
+											<div class="latest_info">
+												<ul class="d-flex flex-row align-items-start justify-content-start">
+													<li><a href="#">by phúc hưng</a></li>
+													<li><a href="#">24 tháng 10, 2018</a></li>
+												</ul>
+											</div>
+											<div class="latest_comments"><a href="#">200 Comments</a></div>
+										</div>
+									</div>
+
+									<!-- Latest News Post -->
+									<div class="latest d-flex flex-row align-items-start justify-content-start">
+										<div>
+											<div class="latest_image"><img src="images/latest_2.jpg" alt=""></div>
+										</div>
+										<div class="latest_content">
+											<div class="latest_title"><a href="news.html">Những điểm lưu ý về thuốc tây</a></div>
+											<div class="latest_info">
+												<ul class="d-flex flex-row align-items-start justify-content-start">
+													<li><a href="#">by phúc hưng</a></li>
+													<li><a href="#">24 tháng 10, 2018</a></li>
+												</ul>
+											</div>
+											<div class="latest_comments"><a href="#">250 Comments</a></div>
+										</div>
+									</div>
+
+									<!-- Latest News Post -->
+									<div class="latest d-flex flex-row align-items-start justify-content-start">
+										<div>
+											<div class="latest_image"><img src="images/latest_3.jpg" alt=""></div>
+										</div>
+										<div class="latest_content">
+											<div class="latest_title"><a href="news.html">Những lưu ý về dụng cụ phẩu thuật</a></div>
+											<div class="latest_info">
+												<ul class="d-flex flex-row align-items-start justify-content-start">
+													<li><a href="#">by phúc hưng</a></li>
+													<li><a href="#">24 tháng 10, 2018</a></li>
+												</ul>
+											</div>
+											<div class="latest_comments"><a href="#">50 Comments</a></div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- Categories -->
+							<!-- Appointment -->
+							<div class="info_form_container">
+								<div class="info_form_title">Đặt Lịch Hẹn</div>
+								<form action="#" class="info_form" id="info_form">
+									<select name="info_form_dep" id="info_form_dep" class="info_form_dep info_input info_select">
+										<option>Phòng khám 1A</option>
+										<option>Phòng khám 2A</option>
+										<option>Phòng khám 3A</option>
+										<option>Phòng khám 4A</option>
+									</select>
+									<select name="info_form_doc" id="info_form_doc" class="info_form_doc info_input info_select">
+										<option>Dr.Gia Thịnh</option>
+										<option>Dr.Minh Cường</option>
+										<option>Dr.Minh Tân</option>
+										<option>Dr.Sơn Lam</option>
+									</select>
+									<input type="text" class="info_input" placeholder="Họ & Tên" required="required">
+									<input type="text" class="info_input" placeholder="Số điện thoại">
+									<button class="info_form_button">Đặt lịch</button>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/footer.jpg"
+			 data-speed="0.8"></div>
+			<div class="footer_content">
+				<div class="container">
+					<div class="row">
+
+						<!-- Footer About -->
+						<div class="col-lg-3 footer_col">
+							<div class="footer_about">
+								<div class="logo">
+									<a href="#"><img src="./images/logo.png" alt="logo"></a>
+								</div>
+								<div class="footer_about_text">Chúng tôi luôn luôn đặt bệnh nhân lên hàng đầu, mọi thắc mắc hoặc khiếu nại xin
+									gửi về cho chúng tôi.</div>
+								<div class="footer_social">
+									<ul class="d-flex flex-row align-items-center justify-content-start">
+										<li><a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+										<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+										<li><a href=""><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+										<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+								<div class="copyright">
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+									Bản Quyền &copy;
+									<script>document.write(new Date().getFullYear());</script> Đã đăng ký | Được tạo bởi <i class="fa fa-heart-o"
+									 aria-hidden="true"></i> by <a href="#">Phúc Hưng</a>
+									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								</div>
+							</div>
+						</div>
+
+						<!-- Footer Contact -->
+						<div class="col-lg-5 footer_col">
+							<div class="footer_contact">
+								<div class="footer_contact_title">Liên Hệ Nhanh</div>
+								<div class="footer_contact_form_container">
+									<form action="#" class="footer_contact_form" id="footer_contact_form">
+										<div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+											<input type="text" class="footer_contact_input" placeholder="Họ & Tên" required="required">
+											<input type="email" class="footer_contact_input" placeholder="E-mail" required="required">
+										</div>
+										<textarea class="footer_contact_input footer_contact_textarea" placeholder="Thắc mắc & khiếu nại" required="required"></textarea>
+										<button class="footer_contact_button">Gửi</button>
+									</form>
+								</div>
+							</div>
+						</div>
+
+						<!-- Footer Hours -->
+						<div class="col-lg-4 footer_col">
+							<div class="footer_hours">
+								<div class="footer_hours_title">Giờ Khám Bệnh</div>
+								<ul class="hours_list">
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div>Thứ Hai – Thứ Sáu</div>
+										<div class="ml-auto">8.00 – 20.00</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div>Thứ Bảy</div>
+										<div class="ml-auto">7.30 – 19.00</div>
+									</li>
+									<li class="d-flex flex-row align-items-center justify-content-start">
+										<div>Chủ Thật</div>
+										<div class="ml-auto">9.00 – 16.00</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script src="js/jquery-3.3.1.min.js"></script>
+			<script src="styles/bootstrap4/popper.js"></script>
+			<script src="styles/bootstrap4/bootstrap.min.js"></script>
+			<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+			<script src="plugins/easing/easing.js"></script>
+			<script src="plugins/parallax-js-master/parallax.min.js"></script>
+			<script src="js/custom.js"></script>
+</body>
+
+</html>
